@@ -8,15 +8,18 @@ Secure static website dynamically deploy it with Terraform hosted in AWS
 ![Terraform](https://img.shields.io/badge/-Terraform-000000?style=flat&logo=Terraform)
 
 # Purpose
+
 Shows how to use the AWS with Terraform to accomplish the following tasks:
 
 * Create one or multiple S3 buckets to storage/host static web files 
 * Create a CloudFront for a fast content delivery network (CDN)
 # Prerequisites
+
 * You must have an AWS account, and have your default credentials and AWS Region
   configured
 * You must have Terraform installed
 # Cautions
+
 * As an AWS best practice, grant this code least privilege, or only the 
   permissions required to perform a task. For more information, see 
   [Grant Least Privilege](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege) 
@@ -26,16 +29,11 @@ Shows how to use the AWS with Terraform to accomplish the following tasks:
 * Running this code might result in charges to your AWS account.
 
 # Running the code
+
 * terraform init
-
 * terraform plan
-
 * terraform apply
-
 * Alternate command : terraform apply -auto-approve
-
 * terraform destroy
-
 * Alternate command : terraform destroy -auto-approve
-
 * terraform fmt # A way to format the terraform code
