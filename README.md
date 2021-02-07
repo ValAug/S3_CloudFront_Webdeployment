@@ -9,7 +9,7 @@ Secure static website dynamically deploy it with Terraform hosted in AWS
 
 # Purpose
 
-Shows how to use the AWS with Terraform to accomplish the following tasks:
+Shows how to use AWS with Terraform to accomplish the following tasks:
 
 * Create one or multiple S3 buckets to storage/host static web files 
 * Create a CloudFront for a fast content delivery network (CDN)
