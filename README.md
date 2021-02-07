@@ -22,7 +22,7 @@ Shows how to use the AWS with Terraform to accomplish the following tasks:
   [Grant Least Privilege](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege) 
   in the *AWS Identity and Access Management 
   User Guide*.
-* This code has not been tested in us-east-1 AWS Regions only. However it should work in any other region. 
+* This code has been tested in us-east-1 AWS Regions only. However it should work in any other region. 
 * Running this code might result in charges to your AWS account.
 
 # Running the code
