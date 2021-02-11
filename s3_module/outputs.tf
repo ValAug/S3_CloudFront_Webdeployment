@@ -2,5 +2,5 @@
 
 output "s3_name" {
   description = "s3 bucket name"
-  value       = [aws_s3_bucket.exos-web-bucket[*].bucket]
+  value       = [aws_s3_bucket.exos_bucket[*].bucket]
 }
