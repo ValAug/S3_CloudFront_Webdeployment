@@ -7,6 +7,12 @@ Secure static website dynamically deploy it with Terraform hosted in AWS
 ###### IaaC
 ![Terraform](https://img.shields.io/badge/-Terraform-000000?style=flat&logo=Terraform)
 
+## Note
+
+module.stactic_web will be creating resource such aws cloudfront distribution for an S3 bucket with web static files.
+module.dns will be creating resource such aws cloudfront origin OAI for an S3 bucket with web static files.
+
+Proper security policies for S3 buckets and CloudFront are still require in both deployments. This would depend in use case.
 # Purpose
 
 Shows how to use AWS with Terraform to accomplish the following tasks:
@@ -32,6 +38,7 @@ Shows how to use AWS with Terraform to accomplish the following tasks:
 
 * terraform init
 * terraform plan
+* terraform validate
 * terraform apply
 * Alternate command : terraform apply -auto-approve
 * terraform destroy
