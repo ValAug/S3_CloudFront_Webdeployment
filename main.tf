@@ -4,3 +4,9 @@ module "stactic_web" {
   s3_count = 1
   
 }
+
+module "dns" {
+  source   = "./s3_module_2"
+  s3_count = 1
+  
+}
