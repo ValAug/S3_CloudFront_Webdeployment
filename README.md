@@ -7,6 +7,10 @@ Secure static website dynamically deploy it with Terraform hosted in AWS
 ###### IaaC
 ![Terraform](https://img.shields.io/badge/-Terraform-000000?style=flat&logo=Terraform)
 
+###### AWS S3 and CloudFront architecture diagram 
+
+![alt text](https://github.com/ValAug/S3_CloudFront_Webdeployment/blob/master/CDN.png)
+
 ## Note
 
 module.stactic_web will be creating resource such aws cloudfront distribution for an S3 bucket with web static files.
