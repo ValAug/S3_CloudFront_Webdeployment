@@ -34,8 +34,9 @@ Shows how to use AWS with Terraform to accomplish the following tasks:
 * This code has been tested in us-east-1 AWS Regions only. However it should work in any other region. 
 * Running this code might result in charges to your AWS account.
 
-# Running the code
-
+# How to run this code
+* Clone this repo
+* cd to S3_CloudFront_Webdeployment folder
 * terraform init
 * terraform plan
 * terraform validate
