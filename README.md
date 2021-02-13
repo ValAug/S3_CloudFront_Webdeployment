@@ -13,10 +13,10 @@ Secure static website dynamically deploy it with Terraform hosted in AWS
 
 ## Note
 
-module.stactic_web will be creating resource such aws cloudfront distribution for an S3 bucket with web static files.
+module.static_web will be creating resource such aws cloudfront distribution for an S3 bucket with web static files.
 module.dns will be creating resource such aws cloudfront origin OAI for an S3 bucket with web static files.
 
-Proper security policies for S3 buckets and CloudFront are still require in both deployments. This would depend in use case.
+Proper security policies for S3 buckets and CloudFront are still require in both deployments.
 # Purpose
 
 Shows how to use AWS with Terraform to accomplish the following tasks:
