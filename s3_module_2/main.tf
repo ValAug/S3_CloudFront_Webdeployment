@@ -16,7 +16,7 @@ resource "random_string" "bucket_rs" {
 resource "aws_s3_bucket" "exos_bucket" {
   count  = var.s3_count
   bucket = join("-", ["exos-bucket", random_string.bucket_rs[count.index].result])
-  acl    = "private"
+  acl    = "public-read-write"
 }
 
 locals {
