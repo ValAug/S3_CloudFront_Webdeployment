@@ -28,6 +28,7 @@ Shows how to use AWS with Terraform to accomplish the following tasks:
 * You must have an AWS account, and have your default credentials and AWS Region
   configured
 * You must have Terraform installed
+* You must create static files (HTML, CSS, JavaScript) and storage them in your bucket 
 # Cautions
 
 * As an AWS best practice, grant this code least privilege, or only the 
