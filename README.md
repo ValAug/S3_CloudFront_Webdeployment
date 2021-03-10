@@ -1,6 +1,6 @@
 <!-- retro visitor counter -->
 <p align="center"> 
-  <img src="https://profile-counter.glitch.me/ValAug/count.svg" />
+  <img src="https://profile-counter.glitch.me/ValAug/S3_CloudFront_Webdeployment/count.svg" />
 </p>
 
 # S3_CloudFront_Webdeployment
