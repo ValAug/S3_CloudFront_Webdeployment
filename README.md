@@ -1,3 +1,8 @@
+<!-- retro visitor counter -->
+<p align="center"> 
+  <img src="https://profile-counter.glitch.me/ValAug/count.svg" />
+</p>
+
 # S3_CloudFront_Webdeployment
 Secure static website dynamically deploy it with Terraform hosted in AWS
 
